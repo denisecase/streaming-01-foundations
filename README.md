@@ -8,7 +8,7 @@
 Data analytics requires a variety of skills.
 This course builds capabilities through working projects.
 
-In the age of generative AI, durable skills are grounded in real work:
+In the age of generative AI, **durable skills** are grounded in real work:
 setting up a professional environment,
 reading and running code,
 understanding the logic,
@@ -18,20 +18,20 @@ We learn by doing.
 
 ## This Project
 
-This project introduces the basics of "data in motion" -
+This project introduces the basics of "data in motion",
 data generated live, in real time,
 and how we run analytics on it.
 
 For example, when someone buys something online,
-some kind of a record is typically created instantly that includes
+a record is typically created instantly that includes
 what was bought, for how much, and where.
 
 The message doesn't wait in a file.
-It travels immediately to whoever needs it.
+It travels immediately to where it is needed.
 This is **streaming data**: data in motion, arriving live, one event at a time.
 
 This project simulates that experience.
-We create a **producer** that generates a simulated stream of sales messages.
+We create a **producer** that generates a **simulated stream of sales messages**.
 Each message is logged to the console as it arrives and saved to a CSV file.
 After each new event, statistics are calculated the full set of sales messages.
 
@@ -131,7 +131,7 @@ uv run python -m zensical build
 git add -A
 git commit -m "your message here"
 
-# repeat if changes were made
+# repeat if changes were made (try the UP ARROW)
 git add -A
 git commit -m "your message here"
 
