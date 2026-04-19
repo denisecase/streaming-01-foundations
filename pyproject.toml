@@ -18,7 +18,7 @@ version = "1.0.0"
 
 dependencies = [
     # REQ.DEPS: External packages used by the project code.
-    "datafun-toolkit",
+    "datafun-toolkit", # WHY: Custom utility library for privacy-aware logging
 ]
 
 [project.optional-dependencies]

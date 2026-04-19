@@ -25,12 +25,12 @@ In this project, the producer simulates online sales arriving one at a time.
 
 A program that reads and processes messages from a stream.
 Producers create data. Consumers use it.
-In later projects, producers and consumers run at the same time.
+Producers and consumers can run at the same time.
 
 ### message / event
 
 One unit of data in a stream.
-In this project, one message is one sale: a sale number, amount, product, and region.
+In this project, one message provides information about one sale.
 
 ### generator
 

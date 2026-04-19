@@ -1,4 +1,4 @@
-# Project Instructions (Module 1: Variables and Professional Python)
+# Project Instructions
 
 ## WEDNESDAY: Complete Workflow Phases 1-3
 
@@ -51,13 +51,11 @@ Then:
 
 As you work, focus on:
 
-- how to choose clear, descriptive variable names
-- how type hints communicate intent without changing behavior
 - how `Final` signals that a value should not be reassigned
 - how f-strings embed variable values into readable output
 - how the `statistics` module provides common descriptive measures
 
-Your goal is to declare meaningful variables and display them clearly.
+Your goal is to make small changes and keep the project running.
 
 ## Professional Communication
 
@@ -70,4 +68,4 @@ Verify key files:
 
 Ensure your project clearly demonstrates:
 
-- successful script execution with output in the log
+- successful script execution with output in the project.log
