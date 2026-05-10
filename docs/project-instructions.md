@@ -23,7 +23,7 @@ Foundations for streaming data projects.
 
 This project introduces the basic project structure used throughout the course.
 
-The case project:
+The example project:
 
 - reads sales records from a local CSV file
 - processes each record one at a time
@@ -46,12 +46,18 @@ The example data starts in:
 data/sales.csv
 ```
 
+NOTE: Consumers handle analytics, so our work focuses on them.
+Producers can typically be used and copied with
+few changes (just authorship) throughout the course,
+unless you decide you want to work with a custom dataset
+(which is always optional, and never required).
+
 ## Phase 4 Suggestions
 
 Make a small technical change that does not break the script.
 Choose any one of these (or a different modification as you like):
 
-- Change the number of messages created to 6-10 or more.
+- Edit `.env` and change the number of messages created to 6-10 or more.
 
 Be very careful when making changes.
 Confirm the script still runs successfully after your change.
@@ -96,4 +102,6 @@ Verify key files:
 
 Ensure your project clearly demonstrates:
 
-- successful script execution with output in the project.log
+- successful script execution
+- output in the project.log
+- newly streamed data file in `data/output`
